@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Usuario.css';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-import { FaEye, FaEyeSlash } from 'react-icons/fa';  // Para ícones de senha
+// import { FaEye, FaEyeSlash } from 'react-icons/fa';  // Para ícones de senha
 
 function Usuario() {
   const [nome, setNome] = useState('João da Silva');
@@ -68,7 +68,7 @@ function Usuario() {
               type="button"
               onClick={() => setShowSenhaAtual(!showSenhaAtual)}
             >
-              {showSenhaAtual ? <FaEyeSlash /> : <FaEye />}
+              {/* {showSenhaAtual ? <FaEyeSlash /> : <FaEye />} */}
             </button>
           </div>
 
@@ -84,7 +84,7 @@ function Usuario() {
               type="button"
               onClick={() => setShowNovaSenha(!showNovaSenha)}
             >
-              {showNovaSenha ? <FaEyeSlash /> : <FaEye />}
+              {/* {showNovaSenha ? <FaEyeSlash /> : <FaEye />} */}
             </button>
           </div>
 
@@ -100,7 +100,7 @@ function Usuario() {
               type="button"
               onClick={() => setShowConfirmarSenha(!showConfirmarSenha)}
             >
-              {showConfirmarSenha ? <FaEyeSlash /> : <FaEye />}
+              {/* {showConfirmarSenha ? <FaEyeSlash /> : <FaEye />} */}
             </button>
           </div>
 
